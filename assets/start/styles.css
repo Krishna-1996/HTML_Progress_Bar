@@ -1,0 +1,36 @@
+body {
+  margin-top: "20px";
+}
+label {
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+progress[value]::-webkit-progress-bar {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(0, 0, 0);
+}
+
+progress[value]::-webkit-progress-value {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  background-image: linear-gradient(
+    134deg,
+    #d6ff0a 21.67%,
+    #000000 21.67%,
+    #000000 50%,
+    #d6ff0a 50%,
+    #d6ff0a 71.67%,
+    #000000 71.67%,
+    #000000 100%
+  );
+  background-size: 41.7px 43.19px;
+}
