@@ -17,7 +17,7 @@ progress {
   background-color: rgb(90, 57, 134);
 }
 
-/* Chrome, Safari and Edge */
+/* Chrome, Safari and Edge location*/
 progress[value]::-webkit-progress-bar {
   background-color: rgb(90, 57, 134);
 }
